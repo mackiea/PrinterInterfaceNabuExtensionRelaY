@@ -28,3 +28,6 @@ They are  **Ack**, **Paper-Out**, **Select**, **Linefeed**, **Error**, **Reset**
 
 #Unused NABU Pins
 These are optional 2.54 connectors to expose the unused NABU pins. There is no documented connection. In case they are in fact usable, or can be made usable, they can be mapped to the unused Centronics pins, or wired for some other nefarious purpose.
+
+## So have we tested the dang thing?
+Not yet! But the connection is proven to work for an Apple Dot-Matrix (C Itoh) Printer (https://en.wikipedia.org/wiki/Apple_Dot_Matrix_Printer).
