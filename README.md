@@ -26,8 +26,8 @@ See https://en.wikipedia.org/wiki/Parallel_port for the Centronics parallel port
 These are optional 2.54 connectors to allow for expanded use with fancy printers, and can be controlled via a NABU Option Card or other control.
 They are  **Ack**, **Paper-Out**, **Select**, **Linefeed**, **Error**, **Reset** and **Select-Printer**.
 
-#Unused NABU Pins
-These are optional 2.54 connectors to expose the unused NABU pins. There is no documented connection. In case they are in fact usable, or can be made usable, they can be mapped to the unused Centronics pins, or wired for some other nefarious purpose.
+# Unused NABU Pins
+These are optional 2.54 connectors to expose the unused NABU pins. There is no documented connection. In case they are in fact usable, or can be made usable, they can be mapped to the unused Centronics pins, or wired for some other nefarious purpose. They are pins 10 and 12-14.
 
 ## So have we tested the dang thing?
 Not yet! But the connection is proven to work for an Apple Dot-Matrix (C Itoh) Printer (https://en.wikipedia.org/wiki/Apple_Dot_Matrix_Printer).
