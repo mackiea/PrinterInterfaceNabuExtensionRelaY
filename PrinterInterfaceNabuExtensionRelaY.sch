@@ -1,0 +1,291 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7450 7500 0    50   ~ 0
+PrinterInterfaceNabuExtensionRelaY
+Text Notes 8100 7650 0    50   ~ 0
+16 March 2023
+$Comp
+L Connector:DB25_Female_MountingHoles J2
+U 1 1 641069CE
+P 5000 3850
+F 0 "J2" H 5180 3852 50  0000 L CNN
+F 1 "DB25_POINT_TOWARDS_PRINTER" H 5180 3761 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-25_Female_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm" H 5000 3850 50  0001 C CNN
+F 3 " ~" H 5000 3850 50  0001 C CNN
+	1    5000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DB15_Male_MountingHoles J1
+U 1 1 64108540
+P 3300 3750
+F 0 "J1" H 3455 3659 50  0000 L CNN
+F 1 "DB15_POINT_TOWARDS_NABU" H 3455 3750 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-15_Male_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm" H 3300 3750 50  0001 C CNN
+F 3 " ~" H 3300 3750 50  0001 C CNN
+	1    3300 3750
+	-1   0    0    1   
+$EndComp
+Text GLabel 3600 3050 2    50   Output ~ 0
+STROBE
+Text GLabel 3600 3450 2    50   Output ~ 0
+DATA1
+Text GLabel 3600 3650 2    50   Output ~ 0
+DATA2
+Text GLabel 3600 3850 2    50   Output ~ 0
+DATA3
+Text GLabel 3600 4050 2    50   Output ~ 0
+DATA4
+Text GLabel 3600 4250 2    50   Output ~ 0
+DATA5
+Text GLabel 3600 4450 2    50   Output ~ 0
+DATA6
+Text GLabel 3600 3250 2    50   Output ~ 0
+DATA0
+Text GLabel 3600 3550 2    50   Input ~ 0
+BUSY
+Text GLabel 4700 2850 0    50   Input ~ 0
+DATA0
+Text GLabel 4700 3050 0    50   Input ~ 0
+DATA1
+Text GLabel 4700 3450 0    50   Input ~ 0
+DATA3
+Text GLabel 4700 3250 0    50   Input ~ 0
+DATA2
+Text GLabel 4700 3650 0    50   Input ~ 0
+DATA4
+Text GLabel 4700 3850 0    50   Input ~ 0
+DATA5
+Text GLabel 4700 4050 0    50   Input ~ 0
+DATA6
+Text GLabel 4700 4250 0    50   Input ~ 0
+DATA7
+Text GLabel 4700 4650 0    50   Output ~ 0
+BUSY
+$Comp
+L power:GND #PWR01
+U 1 1 64110E6A
+P 3600 4350
+F 0 "#PWR01" H 3600 4100 50  0001 C CNN
+F 1 "GND" V 3605 4222 50  0000 R CNN
+F 2 "" H 3600 4350 50  0001 C CNN
+F 3 "" H 3600 4350 50  0001 C CNN
+	1    3600 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 641116BE
+P 4700 4950
+F 0 "#PWR09" H 4700 4700 50  0001 C CNN
+F 1 "GND" V 4705 4822 50  0000 R CNN
+F 2 "" H 4700 4950 50  0001 C CNN
+F 3 "" H 4700 4950 50  0001 C CNN
+	1    4700 4950
+	0    1    1    0   
+$EndComp
+Text GLabel 3600 3350 2    50   UnSpc ~ 0
+NABU10
+Text GLabel 3600 3750 2    50   UnSpc ~ 0
+NABU12
+Text GLabel 3600 3950 2    50   UnSpc ~ 0
+NABU13
+Text GLabel 3600 4150 2    50   UnSpc ~ 0
+NABU14
+$Comp
+L power:GND #PWR02
+U 1 1 64115952
+P 4700 3550
+F 0 "#PWR02" H 4700 3300 50  0001 C CNN
+F 1 "GND" V 4705 3422 50  0000 R CNN
+F 2 "" H 4700 3550 50  0001 C CNN
+F 3 "" H 4700 3550 50  0001 C CNN
+	1    4700 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 64115F62
+P 4700 4150
+F 0 "#PWR05" H 4700 3900 50  0001 C CNN
+F 1 "GND" V 4705 4022 50  0000 R CNN
+F 2 "" H 4700 4150 50  0001 C CNN
+F 3 "" H 4700 4150 50  0001 C CNN
+	1    4700 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 64116249
+P 4700 3750
+F 0 "#PWR03" H 4700 3500 50  0001 C CNN
+F 1 "GND" V 4705 3622 50  0000 R CNN
+F 2 "" H 4700 3750 50  0001 C CNN
+F 3 "" H 4700 3750 50  0001 C CNN
+	1    4700 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 641164CC
+P 4700 4350
+F 0 "#PWR06" H 4700 4100 50  0001 C CNN
+F 1 "GND" V 4705 4222 50  0000 R CNN
+F 2 "" H 4700 4350 50  0001 C CNN
+F 3 "" H 4700 4350 50  0001 C CNN
+	1    4700 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 6411673C
+P 4700 3950
+F 0 "#PWR04" H 4700 3700 50  0001 C CNN
+F 1 "GND" V 4705 3822 50  0000 R CNN
+F 2 "" H 4700 3950 50  0001 C CNN
+F 3 "" H 4700 3950 50  0001 C CNN
+	1    4700 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 64116A23
+P 4700 4550
+F 0 "#PWR07" H 4700 4300 50  0001 C CNN
+F 1 "GND" V 4705 4422 50  0000 R CNN
+F 2 "" H 4700 4550 50  0001 C CNN
+F 3 "" H 4700 4550 50  0001 C CNN
+	1    4700 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 64116CDB
+P 4700 4750
+F 0 "#PWR08" H 4700 4500 50  0001 C CNN
+F 1 "GND" V 4705 4622 50  0000 R CNN
+F 2 "" H 4700 4750 50  0001 C CNN
+F 3 "" H 4700 4750 50  0001 C CNN
+	1    4700 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Counter_Clockwise J4
+U 1 1 64117DA8
+P 5950 4550
+F 0 "J4" H 6000 4867 50  0000 C CNN
+F 1 "PRINTER_EXTRA" H 6000 4776 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 5950 4550 50  0001 C CNN
+F 3 "~" H 5950 4550 50  0001 C CNN
+	1    5950 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 4700 2750 0    50   BiDi ~ 0
+LINEFEED
+Text GLabel 4700 2950 0    50   Output ~ 0
+ERROR
+Text GLabel 4700 3150 0    50   BiDi ~ 0
+RESET
+Text GLabel 4700 3350 0    50   BiDi ~ 0
+SELECTPRINTER
+Text GLabel 4700 4450 0    50   Output ~ 0
+ACK
+$Comp
+L power:GND #PWR010
+U 1 1 64119C36
+P 5750 4450
+F 0 "#PWR010" H 5750 4200 50  0001 C CNN
+F 1 "GND" V 5755 4322 50  0000 R CNN
+F 2 "" H 5750 4450 50  0001 C CNN
+F 3 "" H 5750 4450 50  0001 C CNN
+	1    5750 4450
+	0    1    1    0   
+$EndComp
+Text GLabel 5750 4550 0    50   Input ~ 0
+ACK
+Text GLabel 4700 4850 0    50   Output ~ 0
+PAPEROUT
+Text GLabel 5750 4650 0    50   Input ~ 0
+PAPEROUT
+Text GLabel 4700 5050 0    50   Input ~ 0
+SELECT
+Text GLabel 5750 4750 0    50   Input ~ 0
+SELECT
+Text GLabel 6250 4750 2    50   BiDi ~ 0
+LINEFEED
+Text GLabel 6250 4650 2    50   Input ~ 0
+ERROR
+Text GLabel 6250 4550 2    50   BiDi ~ 0
+RESET
+Text GLabel 6250 4450 2    50   BiDi ~ 0
+SELECTPRINTER
+Text GLabel 3600 3150 2    50   Output ~ 0
+DATA7
+Text GLabel 4700 2650 0    50   Input ~ 0
+STROBE
+$Comp
+L power:GND #PWR011
+U 1 1 64122F96
+P 3300 2850
+F 0 "#PWR011" H 3300 2600 50  0001 C CNN
+F 1 "GND" H 3305 2677 50  0000 C CNN
+F 2 "" H 3300 2850 50  0001 C CNN
+F 3 "" H 3300 2850 50  0001 C CNN
+	1    3300 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female J3
+U 1 1 641237BE
+P 6050 2900
+F 0 "J3" H 6078 2926 50  0000 L CNN
+F 1 "NABU_EXTRA" H 6078 2835 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6050 2900 50  0001 C CNN
+F 3 "~" H 6050 2900 50  0001 C CNN
+	1    6050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 64124B79
+P 5850 2700
+F 0 "#PWR012" H 5850 2450 50  0001 C CNN
+F 1 "GND" V 5855 2572 50  0000 R CNN
+F 2 "" H 5850 2700 50  0001 C CNN
+F 3 "" H 5850 2700 50  0001 C CNN
+	1    5850 2700
+	0    1    1    0   
+$EndComp
+Text GLabel 5850 2800 0    50   UnSpc ~ 0
+NABU10
+Text GLabel 5850 2900 0    50   UnSpc ~ 0
+NABU12
+Text GLabel 5850 3000 0    50   UnSpc ~ 0
+NABU13
+Text GLabel 5850 3100 0    50   UnSpc ~ 0
+NABU14
+$Comp
+L power:GND #PWR0101
+U 1 1 64125518
+P 5000 5250
+F 0 "#PWR0101" H 5000 5000 50  0001 C CNN
+F 1 "GND" H 5005 5077 50  0000 C CNN
+F 2 "" H 5000 5250 50  0001 C CNN
+F 3 "" H 5000 5250 50  0001 C CNN
+	1    5000 5250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
