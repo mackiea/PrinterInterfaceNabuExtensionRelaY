@@ -7,7 +7,7 @@ The NABU's parallel port is a DB-15-pin connector. Although it obviously does no
 
 See https://en.wikipedia.org/wiki/Parallel_port for the Centronics parallel port protocol, and https://cloud.nabu.ca/docs/Nabu_PC_Technical_Specifications.pdf "Printer Interface (p.7) for the NABU parallel port protocol.
 
-##Pinouts
+## Pinouts
 | Signal | NABU | DSUB-25 |
 | ------ |-----:| -------:|
 | STROBE |    1 |       1 |
@@ -22,7 +22,7 @@ See https://en.wikipedia.org/wiki/Parallel_port for the Centronics parallel port
 | Busy   |   11 |      11 |
 | Ground |   15 |   18-25 |
 
-##Unused PC/Centronics Pins
+## Unused PC/Centronics Pins
 These are optional 2.54 connectors to allow for expanded use with fancy printers, and can be controlled via a NABU Option Card or other control.
 They are  **Ack**, **Paper-Out**, **Select**, **Linefeed**, **Error**, **Reset** and **Select-Printer**.
 
